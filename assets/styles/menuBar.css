@@ -1,0 +1,16 @@
+#menuBar {
+    background-color: rgb(0, 0, 0);
+    overflow: hidden;
+}
+
+#menuBar #button {
+    text-align: center;
+    padding: 14px 16px;
+    float: left;
+    text-decoration: none;
+    color: rgb(158, 4, 158);
+}
+
+#menuBar #button:hover {
+    background-color: rgb(54, 48, 54);
+}
