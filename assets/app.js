@@ -11,4 +11,4 @@ import './styles/menuBar.css';
 
 // start the Stimulus application
 import './bootstrap';
-import './sidenav';
+//import './sidenav';

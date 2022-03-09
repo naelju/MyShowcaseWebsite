@@ -1,0 +1,34 @@
+{% extends 'base.html.twig' %}
+{% block body %}
+<h1>Rubiks</h1>
+<h1>Méthodes Fridrich</h1>
+<h2>OLL : orienting Last Layer</h2>
+
+<img id='UpperFace_YellowCross_HelicopterNice_pattern' src="{{ asset('images/UpperFace YellowCross HelicopterNice pattern.png') }}"/>
+Algorithm : L' U' L U' L' U' U' L
+<img id='UpperFace_YellowCross_HelicopterNotNice_pattern' src="{{ asset('images/UpperFace YellowCross HelicopterNotNice pattern.png') }}"/>
+R' U2 (R U R' U) R
+<img id='UpperFace_YellowCross_Dog_pattern' src="{{ asset('images/UpperFace YellowCross Dog pattern.png') }}"/>
+regarde a droite: L U' R' U L' U (R U R' U) R 
+regarde a gauche: R U' L' U R' U (L U L' U) L
+<br>
+<img id='UpperFace_YellowCross_Conduit_pattern' src="{{ asset('images/UpperFace YellowCross Conduit pattern.png') }}"/>
+(R U R' U) R U' R' U R U2 R'
+<img id='UpperFace_YellowCross_Watcher_pattern' src="{{ asset('images/UpperFace YellowCross Watcher pattern.png') }}"/>
+R2 D R' U2 R D' R' U2 R'
+<img id='UpperFace_YellowCross_Listener_pattern' src="{{ asset('images/UpperFace YellowCross Listener pattern.png') }}"/>
+R' F' L F R F' L' F
+<img id='UpperFace_YellowCross_Diago_pattern' src="{{ asset('images/UpperFace YellowCross Diago pattern.png') }}"/>
+R' F' L' F R F' L F
+<br>
+<h3>Bedroom technic, place all corner :</h3>
+hold cube with the 2 corner already placed and oriented on your left. <br>
+If there is not 2, do the algo with any holding of the cube, then redo it holding it right (there will be 2 well placed and oriented corner) <br>
+R U R' U'R' F R2 U' R' U' R U R' F'
+
+<h2>PLL : Permut Last Layer</h2>
+<img id='PLL_Cross_pattern' src="{{ asset('images/PLL Cross pattern.png') }}"/>
+M2 U M2 U2 M2 U M2
+<img id='PLL DoubleDiago pattern' src="{{ asset('images/PLL DoubleDiago pattern.png') }}"/>
+M2 U M2 U M' U2 M2 U2 M' U2
+{% endblock %}

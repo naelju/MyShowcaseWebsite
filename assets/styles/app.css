@@ -12,6 +12,21 @@ body {
     width: 180px;
 }
 
+#profilePic {
+    width: 180px;
+}
+
+#UpperFace_YellowCross_HelicopterNice_pattern {
+    transform: rotate(-90deg);
+}
+#UpperFace_YellowCross_HelicopterNotNice_pattern{
+    transform: rotate(-90deg);
+}
+
+#PLL_Cross_pattern{
+    /* width: 150px; */
+}
+
 #divPP {
     height: 200;
     width: 220px;
