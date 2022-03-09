@@ -5,3 +5,7 @@ index:
 rubik:
    path: /rubik
    controller: App\Controller\RubiksController::index
+
+about:
+   path: /about
+   controller: App\Controller\AboutController::index

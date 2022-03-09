@@ -1,0 +1,51 @@
+{% extends 'base.html.twig' %}
+{% block body %}
+
+<div id='customBody'>
+<h1>Who am I ?</h1>
+<div id='divPP'><img id='profilePic' src="{{ asset('images/profilePicture.jpg') }}"/></div>
+{# <img id='profilePic' src="path('image_show', {'name': image}) }}"/> #}
+<div id='h2title'>
+<h2>Naël Juston</h2>
+<h2>{{age}} years old</h2>
+</div>
+<h3>Quick description</h3>
+<p>
+Old fashioned young adult living in France, I have been studying in IT since I graduated from highschool. <br>
+I've always been pationate by computing and programming, and basically toying with computers. <br>
+I like watching Japan animation, playing video games, reading books and most of all, listening to music. My favourite colors are black and purple.<br>
+My dream of traveling takes place mostly in USA or Japan, but Scandinavian countries are really appealing as well ! <br>
+What matters the most for me : <br>
+I'm christian and I believe in the ressurection of Jesus. I believed He saved me from my sins and promised me for an eternal life. <br>
+</p>
+<h3>My skills</h3>
+<p>
+I graduated from my IUT in 2022 and now own a french diploma called "DUT Informatique". <br>
+My studies allowed me to learn different programming languages, such as :
+<ul>
+<li>Native PHP</li>
+<li>PHP Symfony</li>
+<li>Python</li>
+<li>Java</li>
+<li>C</li>
+</ul>
+<br>
+I also studied other programming languages on my own such as C++ and Windows bash. <br>
+My studies also taught me how to work in team thanks to different projects. <br>
+Thanks to this, I know how to work on a project using different agile methods. <br>
+</p>
+<p>
+To learn more about my skills, here is my resume in
+<a href="/resumes/french_resume_Juston.pdf" target="_blank" rel="noreferrer noopener">french</a> or in 
+<a href="/resumes/english_resume_Juston.pdf" target="_blank" rel="noreferrer noopener">english</a>.
+</p>
+<br>
+<h3>Contact me</h3>
+<p>
+Tel : 07 82 05 80 87 <br>
+Mail : <a href="mailto:naelju@sfr.fr">naelju@sfr.fr</a> <br>
+LinkedIn : <a href="https://www.linkedin.com/in/naël-juston-a09a431b8/" target="_blank" rel="noreferrer noopener">@Naël Juston</a> <br>
+GitHub : <a href="https://github.com/Plague2002/Plague2002" target="_blank" rel="noreferrer noopener">Plague2002</a>
+</p>
+</div>
+{% endblock %}
