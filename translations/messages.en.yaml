@@ -1,0 +1,5 @@
+menu:
+    tabs:
+        home.label: 'Home'
+        about.label: 'About me'
+        rubik.label: "Solving a Rubik's cube"
