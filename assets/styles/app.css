@@ -1,41 +1,10 @@
 body {
     background-color: lightgray;
-    margin:0;
+    margin:0px 0px 0px 0px;
     font-family: 'Montserrat', sans-serif;
 }
 
 #customBody{
     margin-left: 10px;
-}
-
-#profilePic {
-    width: 180px;
-}
-
-#profilePic {
-    width: 180px;
-}
-
-#UpperFace_YellowCross_HelicopterNice_pattern {
-    transform: rotate(-90deg);
-}
-#UpperFace_YellowCross_HelicopterNotNice_pattern{
-    transform: rotate(-90deg);
-}
-
-#PLL_Cross_pattern{
-    /* width: 150px; */
-}
-
-#divPP {
-    height: 200;
-    width: 220px;
-    float:left;
-}
-
-#h2title {
-    margin-top: 45;
-    margin-bottom: 90px;
-    display:inline-block;
-    /* width: 300px; */
+    margin-right: 10px;
 }

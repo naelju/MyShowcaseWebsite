@@ -1,0 +1,10 @@
+#UpperFace_YellowCross_HelicopterNice_pattern {
+    transform: rotate(-90deg);
+}
+#UpperFace_YellowCross_HelicopterNotNice_pattern{
+    transform: rotate(-90deg);
+}
+
+#PLL_Cross_pattern{
+    /* width: 150px; */
+}

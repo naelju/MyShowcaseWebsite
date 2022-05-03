@@ -1,0 +1,96 @@
+#visual:hover{
+    transform: scale(1.1);
+    transform-origin: center;
+}
+
+#visual {
+    margin-top: 30px;
+    height: 286px;
+    width: 340px;
+    border: 3px solid purple;
+    position: relative;
+    left: 40%;
+    transition: 0.8s;
+}
+
+#profilePic {
+    width: 180px;
+    height: 223px;
+}
+
+#visual h1 {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 5px;
+}
+
+#visual .text {
+    float: right;
+    padding-right: 2px;
+    position: relative;
+    top:14%
+}
+
+.knowingMe{
+    margin-top: 50px;
+    width: 1000px;
+    text-align: justify;
+    border: 3px solid purple;
+    padding: 2px;
+    float: left;
+    transition: 0.8s;
+}
+
+.knowingMe:hover{
+    transform: scale(1.01);
+    transform-origin: center;
+}
+
+.skills{
+    margin-top: 200px;
+    margin-bottom: 50px;
+    width: 800px;
+    text-align: justify;
+    border: 3px solid purple;
+    padding: 2px;
+    float: right;
+    transition: 0.8s;
+}
+
+.skills:hover{
+    transform: scale(1.02);
+    transform-origin: center;
+}
+
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 30px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+}
+
+.footer a {
+    color: rgba(255, 0, 0, 0.726);
+}
+
+.footer .text {
+    position: relative;
+    top:20%;
+    left:25%;
+    text-align: center;
+}
+
+.footer h3 {
+    margin: 0px 30px 0px 5px;
+    float: left;
+}
+
+.footer p {
+    margin: 0px 0px 0px 40px;
+    float: left;
+    padding-top: 2px;
+}

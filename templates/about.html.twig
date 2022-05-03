@@ -1,51 +1,89 @@
-{% extends 'base.html.twig' %}
+{% extends 'base.html.twig'%}
 {% block body %}
-
 <div id='customBody'>
-<h1>Who am I ?</h1>
-<div id='divPP'><img id='profilePic' src="{{ asset('images/profilePicture.jpg') }}"/></div>
-{# <img id='profilePic' src="path('image_show', {'name': image}) }}"/> #}
-<div id='h2title'>
-<h2>Naël Juston</h2>
-<h2>{{age}} years old</h2>
+    
+    <div id='visual'>
+        <h1>Who am I ?</h1>
+        <img id='profilePic' src="{{ asset('images/profilePicture.jpg') }}"/>
+        <div class='text'>
+            <h2>Naël Juston</h2>
+            <h2>{{age}} years old</h2>
+        </div>
+    </div>
+
+
+    <div class="knowingMe" {# onclick="location.href='/';" #}>
+        <h3>Knowing me</h3>
+        <p>
+        After graduating high-school in 2020, I then studied Information Technology (IT) at the
+        <a href="https://iut.univ-lyon1.fr">Institut Universitaire Technologique (IUT) of Lyon (France)</a> for two years, <strike>which I recently graduated from in spring of 2022.</strike>(not yet) <br>
+        </p>
+        From an early age, computer programming has been a passion of mine.
+        My favorite hobbies include, watching Japanese animation, playing video games, and reading books, but above all, I enjoy listening to music.
+        Having the opportunity to visit the U.S, Japan, and Scandinavian countries would be a dream come true!
+        Not only I would love to see beautiful Scandinavian landscapes or pink Japanese sakura, but what I want is to open my mind to new cultures, and meet all kind of different people!
+        Oh and of course, above all, try different kind of food. &#128523
+        <p>
+        However, more important than my studies, hobbies, traveling aspirations, and even food, what matters most to me is my relationship with Jesus Christ. <br>
+        If I had to chose a motto to describe my mind, I'd chose the Latin saying <em>"<strong>Memento Mori</strong>"</em> which means "Remember that you will die". <br>
+        This may sounds creepy at first but I would say that this motto drives me in a different way that most people understand it.
+        To me, and because of what I believe in, it reminds me that this world isn't where I'm supposed to stay forever, and that I'm promised to a greater place for eternity.
+        It also means that my time here is limited, and I want to use it to accomplish the most things possible and share the love of Jesus to the greatest amount of people possible!
+        </p>
+    </div>
+    {# <p>
+    Old fashioned young adult living in France, I have been studying in IT since I graduated from highschool. <br>
+    I've always been pationate by computing and programming, and basically toying with computers. <br>
+    I like watching Japan animation, playing video games, reading books and most of all, listening to music. My favourite colors are black and purple.<br>
+    My dream of traveling takes place mostly in USA or Japan, but Scandinavian countries are really appealing as well ! <br>
+    What matters the most for me : <br>
+    I'm christian and I believe in the ressurection of Jesus. I believed He saved me from my sins and promised me for an eternal life. <br>
+    </p> #}
+    <div class="skills">
+        <h3>My skills</h3>
+        <p>
+        {# I graduated from my IUT in 2022 and now own a french diploma called "DUT Informatique". <br> #}
+        My studies in IUT allowed me to learn different programming languages. <br>
+        Here's a list of all the languages I've already used :
+        <ul>
+        <li>Native PHP</li>
+        <li>PHP Symfony</li>
+        <li>Python</li>
+        <li>Java</li>
+        <li>C</li>
+        <li>C#</li>
+        <li>JavaScript</li>
+        <li>Svelte JS framework</li>
+        <li>Rust</li>
+        <li>Linux bash</li>
+        <li>SQL & PL/SQL</li>
+        </ul>
+        I also studied other programming languages on my own such as C++ and Windows bash. <br> <br>
+        My studies also taught me how to work in team thanks to different projects. <br>
+        Thanks to this, I know how to work on a project using different agile methods, in a team or alone. <br>
+        </p>
+        <p>
+        To learn more about my skills, here is my resume in
+        <a href="/resumes/french_resume_Juston.pdf" target="_blank" rel="noreferrer noopener">french</a> or in 
+        <a href="/resumes/english_resume_Juston.pdf" target="_blank" rel="noreferrer noopener">english</a>.
+        </p>
+    </div>
 </div>
-<h3>Quick description</h3>
-<p>
-Old fashioned young adult living in France, I have been studying in IT since I graduated from highschool. <br>
-I've always been pationate by computing and programming, and basically toying with computers. <br>
-I like watching Japan animation, playing video games, reading books and most of all, listening to music. My favourite colors are black and purple.<br>
-My dream of traveling takes place mostly in USA or Japan, but Scandinavian countries are really appealing as well ! <br>
-What matters the most for me : <br>
-I'm christian and I believe in the ressurection of Jesus. I believed He saved me from my sins and promised me for an eternal life. <br>
-</p>
-<h3>My skills</h3>
-<p>
-I graduated from my IUT in 2022 and now own a french diploma called "DUT Informatique". <br>
-My studies allowed me to learn different programming languages, such as :
-<ul>
-<li>Native PHP</li>
-<li>PHP Symfony</li>
-<li>Python</li>
-<li>Java</li>
-<li>C</li>
-</ul>
-<br>
-I also studied other programming languages on my own such as C++ and Windows bash. <br>
-My studies also taught me how to work in team thanks to different projects. <br>
-Thanks to this, I know how to work on a project using different agile methods. <br>
-</p>
-<p>
-To learn more about my skills, here is my resume in
-<a href="/resumes/french_resume_Juston.pdf" target="_blank" rel="noreferrer noopener">french</a> or in 
-<a href="/resumes/english_resume_Juston.pdf" target="_blank" rel="noreferrer noopener">english</a>.
-</p>
-<br>
-<h3>Contact me</h3>
-<p>
-Tel : 07 82 05 80 87 <br>
-Mail : <a href="mailto:naelju@sfr.fr">naelju@sfr.fr</a> <br>
-LinkedIn : <a href="https://www.linkedin.com/in/naël-juston-a09a431b8/" target="_blank" rel="noreferrer noopener">@Naël Juston</a> <br>
-GitHub : <a href="https://github.com/Plague2002/Plague2002" target="_blank" rel="noreferrer noopener">Plague2002</a>
-</p>
+<div class="footer">
+    <div class="text">
+        {# <h3>Contact me :</h3> #}
+        <p>
+        Phone : 07 82 05 80 87 
+        
+        <p>
+        Mail : <a href="mailto:naelju@sfr.fr">naelju@sfr.fr</a> 
+        </p>
+        <p>
+        LinkedIn : <a href="https://www.linkedin.com/in/naël-juston-a09a431b8/" target="_blank" rel="noreferrer noopener">@Naël Juston</a> 
+        </p>
+        <p>
+        GitHub : <a href="https://github.com/Plague2002/Plague2002" target="_blank" rel="noreferrer noopener">Plague2002</a>
+        </p>
+    </div>
 </div>
 {% endblock %}

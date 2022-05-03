@@ -12,16 +12,15 @@
         {% block javascripts %}
             {{ encore_entry_script_tags('app') }}
         {% endblock %}
-
-        
-        <div id='menuBar'>
-            <a id='button' href='/'>{{'menu.tabs.home.label'|trans}}</a>
-            <a id='button' href='/about'>{{'menu.tabs.about.label'|trans}}</a>
-            <a id='button' href='/rubik'>{{'menu.tabs.rubik.label'|trans}}</a>
-        </div>
-
     </head>
     <body>
+        {% block header %}
+            <div id='menuBar'>
+                <a id='button' href='/'>{{'menu.tabs.home.label'|trans}}</a>
+                <a id='button' href='/about'>{{'menu.tabs.about.label'|trans}}</a>
+                <a id='button' href='/rubik'>{{'menu.tabs.rubik.label'|trans}}</a>
+            </div>
+        {% endblock %}
         {% block body %}{% endblock %}
     </body>
 </html>
